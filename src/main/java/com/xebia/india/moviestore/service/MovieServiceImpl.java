@@ -9,13 +9,12 @@ import org.springframework.stereotype.Service;
 import com.xebia.india.moviestore.entity.MovieEntity;
 import com.xebia.india.moviestore.exception.RecordNotFoundException;
 import com.xebia.india.moviestore.repository.MovieStoreRepository;
-import org.hibernate.SessionFactory;
 
 @Service
 public class MovieServiceImpl implements MovieService{
 	
 	@Autowired
-	private SessionFactory sessionFactory;
+	private MovieStoreRepository repository;
 
 	public List<MovieEntity> getMovieList() {
 		List<MovieEntity> movieList = repository.findAll();
