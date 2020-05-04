@@ -62,12 +62,12 @@ The project moviestore has a particular directory structure. A representative pr
 ├── src
 │   └── main
 │       └── java
-│           ├── com.xebia.india.moviestore
-│           ├── com.xebia.india.moviestore.controller
-│           ├── com.xebia.india.moviestore.entity
-│           ├── com.xebia.india.moviestore.repository
-│           ├── com.xebia.india.moviestore.service
-│           ├── com.xebia.india.moviestore.exception
+│           ├── com.tech.india.moviestore
+│           ├── com.tech.india.moviestore.controller
+│           ├── com.tech.india.moviestore.entity
+│           ├── com.tech.india.moviestore.repository
+│           ├── com.tech.india.moviestore.service
+│           ├── com.tech.india.moviestore.exception
 ├── src
 │   └── main
 │       └── resources
@@ -75,7 +75,7 @@ The project moviestore has a particular directory structure. A representative pr
 ├── src
 │   └── test
 │       └── java
-│           └── com.xebia.india.moviestore
+│           └── com.tech.india.moviestore
 ├── JRE System Library
 ├── Maven Dependencies
 ├── src
